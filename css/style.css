@@ -1,0 +1,239 @@
+/* body */
+body {
+  background-color: black;
+}
+
+/* header */
+.padding {
+  padding: 1rem 2rem;
+}
+
+.main-logo {
+  width: 3rem;
+}
+
+.navitems {
+  font-family: sans-serif;
+}
+
+.brand-icon {
+  color: rgb(218, 218, 218);
+  padding-right: 1rem;
+}
+
+.banner-image {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.bannerimg {
+  opacity: 0.8;
+  width: 100%;
+}
+
+.name {
+  color: rgb(255, 0, 76);
+}
+.carouselitems {
+  padding: 13rem 3.2rem 4rem;
+}
+
+.title {
+  font-size: 1rem;
+  color: grey;
+}
+
+.intro {
+  width: 100%;
+  color: white;
+  font-family: "montserrat";
+  font-size: 2rem;
+}
+
+/* about */
+
+.about-intro {
+  padding: 1rem;
+  color: rgb(153, 153, 153);
+  font-size: 1rem;
+}
+
+.a-intro {
+  width: 100%;
+  color: white;
+  font-family: "montserrat";
+  font-weight: 400;
+  font-size: 3rem;
+}
+.p-intro {
+  font-size: 1.2rem;
+}
+
+.skill-btn {
+  display: inline;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1.3rem;
+}
+
+/*
+================================================
+8. Services Sec
+================================================
+*/
+
+.service_section.inner-content-wrapper {
+  padding: 40px 0 80px;
+}
+.service_section .section-title {
+  margin: 0 0 40px;
+  color: aliceblue;
+}
+.section-title {
+  text-align: center;
+}
+
+/** Single Service Sec **/
+.service_section .service_item {
+  background: rgb(37, 37, 37);
+  color: azure;
+  border-radius: 1rem;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  transition: all 0.3s;
+  margin: 40px 0 0;
+}
+
+.service_section .service_item:hover {
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+}
+.service_section .service_title {
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+.service_section .service_title a {
+  color: white;
+  text-decoration: none;
+}
+
+.service-text {
+  color: rgb(153, 153, 153);
+}
+.service_icon_wrapper {
+  color: rgb(255, 0, 76);
+  font-size: 3rem;
+  display: block;
+}
+
+#service {
+  padding-bottom: 3rem;
+}
+
+/* contact */
+.contact-intro {
+  color: rgb(153, 153, 153);
+  font-size: 1rem;
+  margin-bottom: 5rem;
+}
+#contact,
+#about {
+  margin-bottom: 2rem;
+  background-color: rgb(37, 37, 37);
+}
+
+.contact-us input,
+textarea,
+.contact-us button {
+  display: block;
+  background-color: rgb(255, 0, 76);
+  border: none;
+  padding: 1rem 2rem;
+}
+
+.contact-us button:hover {
+  background-color: red;
+}
+
+.contact-us input,
+textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border: 2px solid rgb(46, 46, 46);
+  border-radius: 0.2rem;
+  padding: 0.6rem;
+}
+textarea:focus,
+input:focus {
+  color: white;
+}
+textarea,
+input {
+  color: white;
+}
+
+/* footer */
+footer {
+  padding: 0 2rem 2rem;
+}
+.author {
+  color: white;
+  font-weight: 700;
+  font-family: "Merriweather";
+  font-size: 2rem;
+}
+
+.brand-icons {
+  color: grey;
+  border: 2px solid grey;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  margin-right: 0.5rem;
+}
+.perss {
+  padding: 0.7rem 0.9rem;
+}
+.pers2 {
+  padding: 0.7rem 0.8rem;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.navbar-text {
+  display: inline;
+  padding-right: 2.2rem;
+  color: grey;
+  text-align: right;
+}
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: transparent;
+  color: white;
+  font-size: 200%;
+  padding: 19px 20px 16px;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  border-radius: 50%;
+  width: 8rem;
+}
+.service_item:hover,
+.service_icon_wrapper:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 69, 119, 1) 100%
+  );
+  color: white;
+}

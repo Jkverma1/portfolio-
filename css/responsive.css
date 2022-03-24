@@ -1,0 +1,61 @@
+@media only screen and (min-width: 1000px) {
+  .intro {
+    width: 50%;
+    font-family: "montserrat";
+    font-size: 4rem;
+    color: white;
+  }
+  .about-intro {
+    padding: 20% 0 0 0;
+  }
+  .skill-btn {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    display: none;
+  }
+  .centertexts {
+    text-align: center;
+    transform: translate(-50, 50);
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .authors {
+    text-align: center;
+  }
+  .contact-img {
+    display: none;
+  }
+  .skill-btn {
+    font-size: 1rem;
+  }
+  .about-intro {
+    padding: 0;
+    font-size: 0.8rem;
+  }
+  .a-intro {
+    font-size: 2.5rem;
+  }
+  .p-intro {
+    font-size: 1rem;
+  }
+  .carouselitems {
+    padding: 3.5rem 3.2rem 1rem;
+  }
+  .title {
+    font-size: 0.6rem;
+  }
+  .intro {
+    font-size: 1.5rem;
+  }
+  .navbar {
+    position: absolute;
+  }
+  .open-button {
+    width: 6rem;
+  }
+}
